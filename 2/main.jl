@@ -5,14 +5,14 @@ function exponencial(x,n)
   for i in 0:n
     A+=x^i/factorial(i)
   end
-    #return A
+    return A
 end
   
   function factorial(n)
     if n==0
-      return 1
-    else
-      #return n*factorial(n-1)
+    return 1
+  else
+    return n*factorial(n-1)
   end    
     
     x = 2
